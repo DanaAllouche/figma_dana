@@ -737,3 +737,17 @@ h6 {
   border: var(--color-bg) solid;
   padding: 15px 55px 15px 55px;
 }
+.card2{
+  max-width: 100%;
+  background-color: var(--color-bg);
+  padding-bottom: 80px;
+}
+
+.card2 a, hr, h3, h6, h1{
+  color: var(--color-primary);
+  margin-left: 1px;
+}
+
+.card2 .card__image img{
+   margin-left: 40px;
+}
