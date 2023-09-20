@@ -310,14 +310,20 @@ a.button-secondary {
  
 }
 .card__title h6{
+  color: var(--color-text-secondary);
   text-align: center;
   padding-top: 30px;
   line-height: 70px;
 }
 .card__title h1{
+  color: var(--color-text);
   text-align: center;
   line-height: 70px;
 }
+.card__title h3{
+  color: var(--color-text);
+}
+
 .card__image {
   min-height: 500px;
   margin-top: 40px;
@@ -364,8 +370,9 @@ h6 {
 .img-txt {
   display: flex;
   margin-top: 100px;
-  width: 70%;
+  width: 80%;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .img-txt__img{
   width: 40%;
@@ -379,7 +386,7 @@ h6 {
 
 .img-txt__text {
   width: 50%;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 
 .img-txt__lists{
@@ -665,6 +672,7 @@ h6 {
   font-weight: bold;
   padding-left: 15px;
   padding-bottom: 30px;
+  color: var(--color-text);
 }
 
 .footer-menu ul a {
@@ -745,7 +753,7 @@ h6 {
   padding-bottom: 80px;
 }
 
-.card2 a, hr, h3, h6, h1{
+.card2 a, .card2 hr, .card2 h1, .card2 h3, .card2 h6{
   color: var(--color-primary);
   margin-left: 1px;
 }
